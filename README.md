@@ -1,5 +1,3 @@
-# airline-system-database
-
 <h1 align="center" style="font-family: 'Brush Script MT', cursive; font-weight:bold; background: linear-gradient(to right, #4DA3FF, #1F8FFF, #9AD0FF); -webkit-background-clip: text; color: transparent; font-size:60px;">
   Airline Management System
 </h1>
@@ -15,8 +13,6 @@
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="60" title="MS SQL Server"/> 
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/T--SQL-Programming-blue?style=flat&logo=microsoft-sql-server&logoColor=white" height="50" title="T-SQL"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" title="Git"/>
 </p>
 
@@ -29,12 +25,14 @@ The system is organized into **four specialized schemas** to ensure data isolati
 - **`customer`**: Manages the passenger experience—Profiles, Bookings, and real-time Baggage tracking.
 - **`financial`**: Secures all revenue streams—Payments, Credit Card authorizations, and Loyalty Point transactions.
 
-## 📊 System Design (EERD)
+## 📊 System Design (ERD)
 
-<p align="center">
-  <img src="docs/eerd_preview.png" width="850" alt="Airline System EERD"/>
+<p align="left">
+  <a href="docs/erd.pdf">
+    <img src="docs/erd.jpg" width="850" alt="Database ERD">
+  </a>
   <br>
-  <i>Full high-resolution architecture available in the <code>/docs</code> folder.</i>
+  <i>Full high-resolution architecture available in the <code>/docs</code> folder</i>
 </p>
 
 ## ⚡ Engineering Highlights & Business Logic
